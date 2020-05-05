@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RanorexFormTest" parallel="false">
+    <test name="FirstNameDialog">
+        <classes>
+            <class name="com.github.vakhaval.homework5.FirstNameDialog"/>
+        </classes>
+    </test>
+
+    <test name="AddVIP">
+        <classes>
+            <class name="com.github.vakhaval.homework5.AddVIP"/>
+        </classes>
+    </test>
+</suite>
